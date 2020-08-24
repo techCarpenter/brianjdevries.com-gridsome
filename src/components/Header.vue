@@ -1,13 +1,15 @@
 <template>
   <header>
-    <g-link class="logo" to="/">
-      <g-image src="../../static/android-chrome-192x192.png" width="40" />
-    </g-link>
-    <nav>
-      <g-link class="nav-link" to="/about">About</g-link>
-      <g-link class="nav-link" to="/now">Now</g-link>
-      <g-link class="nav-link" to="/blog">Blog</g-link>
-    </nav>
+    <div class="container">
+      <g-link class="logo" to="/">
+        <g-image src="../../static/android-chrome-192x192.png" width="40" />
+      </g-link>
+      <nav>
+        <g-link class="nav-link" to="/about">About</g-link>
+        <g-link class="nav-link" to="/now">Now</g-link>
+        <g-link class="nav-link" to="/blog">Blog</g-link>
+      </nav>
+    </div>
   </header>
 </template>
 
@@ -22,11 +24,15 @@ query {
 <style scoped>
 header {
   background-color: var(--black-coffee);
+  padding: 10px;
+}
+.container {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  max-width: 1000px;
 }
 .logo {
   display: flex;
@@ -46,7 +52,7 @@ header {
   text-decoration: none;
   filter: brightness(0.8);
 }
-.active and :not(.logo){
+.active and :not(.logo) {
   filter: brightness(0.8);
 }
 </style>

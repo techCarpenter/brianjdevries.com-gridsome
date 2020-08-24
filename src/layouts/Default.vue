@@ -22,7 +22,7 @@ export default {
 
 <style>
 .layout {
-  max-width: 760px;
+  max-width: 620px;
   margin: 0 auto 3em;
   padding: 0 10px;
 }

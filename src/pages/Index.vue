@@ -3,7 +3,8 @@
     <div class="box">
       <g-image alt="Image of Brian DeVries" src="../assets/images/briandevries.jpg" />
     </div>
-    <h1></h1>
+    <h1>Hi, I'm Brian DeVries.</h1>
+    <p>Welcome to my online home! I hope you learn something new today and do something that challenges you.</p>
   </Layout>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>The Blog</h1>
+    <h1>Writing</h1>
     <section>
       <BlogListItem v-for="post in $page.allBlogPost.edges" :key="post.node.id" :post="post" />
     </section>
@@ -15,6 +15,7 @@ query {
         id
         title
         path
+        date (format: "MM/DD/YYYY")
         fileInfo {
           name
         }

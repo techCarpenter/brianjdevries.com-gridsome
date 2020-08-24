@@ -1,5 +1,5 @@
 ---
-title: "Always Watching"
+title: "You're Being Watched"
 date: 2020-08-24
 ---
 
@@ -25,7 +25,7 @@ What do these companies have in common? They offer services for free in exchange
 
 "But they only track you within their services, right?" Wrong. They reach much farther than that. With social login options, they're able to observe your movement in those apps as well.
 
-It's also possible for their trackers to access sites you're browsing within the same session. (FACT_CHECK) All of the tracking seems excessive to me, but it's hard to get away from the platforms and services. There are some truly useful tools.
+It's also possible for their trackers to access sites you're browsing within the same session. All of the tracking seems excessive to me, but it's hard to get away from the platforms and services. There are some truly useful tools.
 
 For example, I'm a fan of the google suite. Gmail, Docs, Sheets, Photos, Drive, etc. Lots of productivity there. But is the exchange of free services for my attention really worth it?
 

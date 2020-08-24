@@ -1,9 +1,10 @@
 <template>
   <div class="post-item">
-    <g-link :to="post.node.path">
-      <p>{{post.node.title}}</p>
-      <!-- <Tags :tags="post.node.tags" /> -->
-    </g-link>
+    <h3>
+      <g-link :to="post.node.path">{{post.node.title}}</g-link>
+    </h3>
+    <!-- <Tags :tags="post.node.tags" /> -->
+    <p>{{post.node.date}}</p>
   </div>
 </template>
 
@@ -19,3 +20,20 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h3, p {
+    margin: 0;
+}
+.post-item {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-item:hover {
+    background-color: #ccc;
+}
+</style>
