@@ -16,4 +16,10 @@ export default function(Vue, { router, head, isClient }) {
     rel: "icon",
     href: "favicon.ico",
   });
+  head.script.push({
+    "data-goatcounter": "https://brianjdevries.goatcounter.com/count",
+    src: "//gc.zgo.at/count.js",
+    async: true,
+    body: true,
+  });
 }
