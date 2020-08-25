@@ -34,6 +34,6 @@ h3, p {
     align-items: center;
 }
 .post-item:hover {
-    background-color: #ccc;
+    background-color: #ddd;
 }
 </style>
