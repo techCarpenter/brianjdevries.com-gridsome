@@ -1,7 +1,7 @@
 <template>
   <div class="subscribe">
-    <p><strong>Get updates every Monday</strong></p>
-    <a class="button" :href="$static.json.newsletter">Subscribe!</a>
+    <p><strong>Get updates every Monday!</strong></p>
+    <a class="button" :href="$static.json.newsletter">Join Newsletter</a>
   </div>
 </template>
 
@@ -21,7 +21,7 @@ query {
   margin: 0 auto 3em;
 }
 .button {
-  padding: 10px;
+  padding: 10px 20px;
   color: #eee;
   background-color: var(--cinnabar);
   border-radius: 6px;

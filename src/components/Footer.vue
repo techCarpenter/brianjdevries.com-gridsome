@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <Subscribe />
     <SocialLinks />
     <nav>
       <ul>
@@ -28,10 +29,12 @@
 
 <script>
 import SocialLinks from "../components/SocialLinks";
+import Subscribe from "../components/Subscribe";
 
 export default {
   components: {
     SocialLinks,
+    Subscribe,
   },
 };
 </script>
@@ -49,6 +52,6 @@ footer {
   text-align: center;
 }
 li {
-    text-align: center;
+  text-align: center;
 }
 </style>
