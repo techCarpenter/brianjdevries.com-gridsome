@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="box">
+    <div class="image-box">
       <g-image alt="Image of Brian DeVries" src="../assets/images/briandevries.jpg" />
     </div>
     <h1>Hi, I'm Brian DeVries.</h1>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-.box {
+.image-box {
   padding-top: 10px;
   width: 100%;
 }

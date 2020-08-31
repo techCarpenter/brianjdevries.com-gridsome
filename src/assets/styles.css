@@ -10,7 +10,10 @@ body {
   min-height: 100vh;
   line-height: 1.5;
 }
-
+#app {
+  position: relative;
+  min-height: 100vh;
+}
 a {
   color: var(--cinnabar);
   text-decoration: none;
@@ -20,4 +23,11 @@ a:focus,
 a:hover,
 a:active {
   text-decoration: underline;
+}
+ul {
+  padding-left: 1em;
+  list-style-type: disc;
+}
+img {
+  max-width: 100%;
 }

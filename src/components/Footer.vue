@@ -1,21 +1,8 @@
 <template>
   <footer>
-    <Subscribe />
-    <SocialLinks />
-    <nav>
-      <ul>
-        <li>
-          <g-link to="/about">About</g-link>
-        </li>
-        <li>
-          <g-link to="/blog">Blog</g-link>
-        </li>
-      </ul>
-    </nav>
-    <p class="copyright">
-      &copy; {{new Date().getFullYear().toString()}}
-      <g-link to="/">{{$static.metadata.siteName}}</g-link>
-    </p>
+    <p
+      class="copyright"
+    >&copy; {{new Date().getFullYear().toString() + ' ' + $static.metadata.siteName}}</p>
   </footer>
 </template>
 
@@ -29,18 +16,22 @@
 
 <script>
 import SocialLinks from "../components/SocialLinks";
-import Subscribe from "../components/Subscribe";
 
 export default {
   components: {
     SocialLinks,
-    Subscribe,
   },
 };
 </script>
 
 <style scoped>
 footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--black-coffee);
+  color: #eee;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,10 +39,7 @@ footer {
   padding: 10px 0;
 }
 .copyright {
-  margin-top: 0;
-  text-align: center;
-}
-li {
+  margin: 0;
   text-align: center;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="subscribe">
-    <p><strong>Get updates every Monday!</strong></p>
-    <a class="button" :href="$static.json.newsletter">Join Newsletter</a>
+    <p><strong>Want to stay up-to-date?</strong></p>
+    <a class="button" :href="$static.json.newsletter">Join Email List</a>
   </div>
 </template>
 
@@ -19,6 +19,9 @@ query {
   flex-direction: column;
   align-items: center;
   margin: 0 auto 3em;
+}
+.subscribe p {
+    text-align: center;
 }
 .button {
   padding: 10px 20px;

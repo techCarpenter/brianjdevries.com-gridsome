@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <postContent :post="$page.blogPost" />
-    <!-- <button onclick="https://brianjdevries.substack.com/welcome">Subscribe!</button> -->
+    <Subscribe />
   </Layout>
 </template>
 
@@ -17,10 +17,12 @@
 
 <script>
 import postContent from "../components/BlogPost";
+import Subscribe from "../components/Subscribe";
 
 export default {
   components: {
     postContent,
+    Subscribe,
   },
   metaInfo() {
     return {
@@ -29,19 +31,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-button {
-  width: 100px;
-  color: var(--grullo);
-  text-align: center;
-  background-color: var(--cinnabar);
-  padding: 20px;
-  font-size: 16px;
-}
-button:hover,
-button:focus,
-button:active {
-  filter: brightness(1.2);
-}
-</style>

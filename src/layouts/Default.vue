@@ -5,7 +5,7 @@
       <slot />
     </div>
     <!-- <Aside /> -->
-    <hr />
+    <div style="height: 50px;"></div>
     <Footer />
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
 <style>
 .layout {
   max-width: 620px;
-  margin: 0 auto 3em;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
