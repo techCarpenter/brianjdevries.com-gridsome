@@ -32,23 +32,23 @@ The results were always the same: make little to no money and despise working th
 
 ## Things Start To Change
 
-One year into my career (2018), I landed a job where I wrote software to talk with circuits. I was psyched!
+One year into my career (2018), I landed a job where I wrote a little software to talk with the circuits I was building. I was psyched!
 
-But another year after that, I felt drained by the work I was doing.
+But another year after that, I felt drained by the hardware part of my job.
 
-I was less interested in the electrical engineering part of my job and LOVED the programming.
+I was less interested in the electrical engineering aspect, but I LOVED the programming.
 
-And I was still trying to make money on the side.
+And I was still trying to find a way to make money on the side.
 
 My wife asked, "Why don't you try to do a side hustle with programming?"
 
 **This was a turning point for me.**
 
-I knew enough about software to be dangerous. But rather than just doing something on the side, why couldn't I become a full-time software developer?
+I knew enough about software to be dangerous. So rather than just doing something on the side, why couldn't I become a full-time software developer?
 
 Writing software again brought back all the excitement I originally had experienced back in college.
 
-I found web development and taught myself how to build websites through online resources.
+I was interested in web development so I taught myself how to build websites through online resources.
 
 Almost 3 years out of college, I transitioned from engineering into a full time software programming job.
 
