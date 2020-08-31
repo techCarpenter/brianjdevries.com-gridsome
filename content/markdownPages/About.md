@@ -14,9 +14,9 @@ At the time I was working toward a Bachelor's Degree in Electrical Engineering.
 
 I enjoyed it but saw my engineering degree through to the end and started my engineering career.
 
-I had graduated with ~$60,000 in student loans. Once the student loan payments started in the fall of 2017, I felt enslaved.
+I graduated with ~$80,000 in student loans (not including my wife's...). Once the student loan payments started in the fall of 2017, I felt enslaved.
 
-I could afford the payments, but I was staring down the barrel of a 20-year long payback period if I didn't do something about it.
+I could afford the payments, but I was staring down the barrel of a 20+ year payback period if I didn't do something about it.
 
 My solution was to start a side hustle to make extra money to put towards paying back loans.
 
@@ -60,4 +60,4 @@ Since I've graduated college, I've learned a lot about programming, self-teachin
 
 I built this website to share what I've learned on my journey. Take a look through the content here to help you learn.
 
-I hope you enjoy it. _Send me a message_ to let me know what you think or if you'd like to learn something I haven't written about yet!
+I hope you enjoy it. _[Send me a message](mailto:brian@brianjdevries.com)_ to let me know what you think or if you'd like to learn something I haven't written about yet!
