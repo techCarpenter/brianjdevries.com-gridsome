@@ -1,5 +1,63 @@
-# About Me
+# About Brian
 
-Hi, I'm Brian DeVries! Thank you for your interest in my site.
+![Brian DeVries](./../../src/assets/images/briandevries.jpg)
 
-I am currently working on fleshing out the information on this site, check back here later this week for more information about me.
+Hi, I'm Brian DeVries. Thanks for checking out my site!
+
+You probably landed on this page because you want to learn a little more about me and perhaps about how I made the transition into a software career.
+
+## Some Background
+
+I was introduced to programming during my sophomore year of college (2014).
+
+At the time I was working toward a Bachelor's Degree in Electrical Engineering.
+
+I enjoyed it but saw my engineering degree through to the end and started my engineering career.
+
+I had graduated with ~$60,000 in student loans. Once the student loan payments started in the fall of 2017, I felt enslaved.
+
+I could afford the payments, but I was staring down the barrel of a 20-year long payback period if I didn't do something about it.
+
+My solution was to start a side hustle to make extra money to put towards paying back loans.
+
+I tried all kinds of things.
+
+- Selling homemade bottle openers.
+- Candle making.
+- Wax seals.
+- Freelance engineering.
+- Working as a handyman.
+
+The results were always the same: make little to no money and despise working the extra time.
+
+## Things Start To Change
+
+One year into my career (2018), I landed a job where I wrote software to talk with circuits. I was psyched!
+
+But another year after that, I felt drained by the work I was doing.
+
+I was less interested in the electrical engineering part of my job and LOVED the programming.
+
+And I was still trying to make money on the side.
+
+My wife asked, "Why don't you try to do a side hustle with programming?"
+
+**This was a turning point for me.**
+
+I knew enough about software to be dangerous. But rather than just doing something on the side, why couldn't I become a full-time software developer?
+
+Writing software again brought back all the excitement I originally had experienced back in college.
+
+I found web development and taught myself how to build websites through online resources.
+
+Almost 3 years out of college, I transitioned from engineering into a full time software programming job.
+
+Now I'm able to pay more towards my student loans and save more money doing the thing I love to do.
+
+## Why I Created This Site
+
+Since I've graduated college, I've learned a lot about programming, self-teaching, money management, and much more.
+
+I built this website to share what I've learned on my journey. Take a look through the content here to help you learn.
+
+I hope you enjoy it. _Send me a message_ to let me know what you think or if you'd like to learn something I haven't written about yet!
