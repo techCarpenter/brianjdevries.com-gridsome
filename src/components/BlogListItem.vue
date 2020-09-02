@@ -26,8 +26,8 @@ h3, p {
     margin: 0;
 }
 .post-item {
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.65rem;
+    border-radius: 0.65rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

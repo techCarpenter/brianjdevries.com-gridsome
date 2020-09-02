@@ -70,17 +70,18 @@ query {
 .social-links {
   display: flex;
   flex-direction: row;
-  width: 150px;
-  justify-content: space-between;
+  width: 100%;
+  min-width: 10rem;
+  justify-content: center;
 }
 .social-links > a {
-  display: flex;
+  display: inline-flex;
+  margin: 0 1rem;
 }
 a svg:hover,
 a svg:focus,
 a svg:active {
-  transition-duration: 300ms;
-  transition-timing-function: ease-in-out;
+  transition: stroke 0.3s ease-in-out;
 }
 .feather-twitter:hover,
 .feather-twitter:focus,
@@ -97,5 +98,4 @@ a svg:active {
 .feather-linkedin:active {
   stroke: #2867b2;
 }
-
 </style>

@@ -18,16 +18,16 @@ query {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 3em;
+  margin: 0 auto 3rem;
 }
 .subscribe p {
     text-align: center;
 }
 .button {
-  padding: 10px 20px;
+  padding: 0.65rem 1.25rem;
   color: #eee;
   background-color: var(--cinnabar);
-  border-radius: 6px;
+  border-radius: 0.4rem;
 }
 .button:hover,
 .button:focus {

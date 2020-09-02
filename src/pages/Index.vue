@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .image-box {
-  padding-top: 10px;
+  padding-top: 0.65rem;
   width: 100%;
 }
 img {
