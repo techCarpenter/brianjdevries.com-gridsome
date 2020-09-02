@@ -36,7 +36,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 0.65rem 0;
+  max-height: var(--footer-height);
 }
 .copyright {
   margin: 0;

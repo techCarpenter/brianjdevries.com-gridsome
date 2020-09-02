@@ -5,7 +5,7 @@
       <slot />
     </div>
     <!-- <Aside /> -->
-    <div style="height: 50px;"></div>
+    <div style="height: var(--footer-height);"></div>
     <Footer />
   </div>
 </template>
@@ -26,12 +26,12 @@ export default {
 
 <style>
 .layout {
-  max-width: 620px;
+  max-width: 38.75rem;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 0.75rem;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 38.75rem) {
   .layout {
     padding: 0;
   }
