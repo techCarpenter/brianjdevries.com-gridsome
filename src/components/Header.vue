@@ -79,22 +79,16 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: calc(1000 / 16) rem;
+  max-width: var(--article-width);
 }
 .logo {
   display: flex;
 }
 .openMenu {
-  opacity: 1;
-  visibility: visible;
-  height: auto;
   max-height: 18rem;
   margin-bottom: 0.65rem;
-  transition: max-height 0.3s ease-out, opacity 0.3s linear 0.3s;
 }
 nav {
-  opacity: 0;
-  visibility: hidden;
   padding: 0;
   display: flex;
   position: relative;
@@ -104,7 +98,8 @@ nav {
   justify-content: space-between;
   height: auto;
   max-height: 0;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-in;
+  transition: max-height 0.5s ease-out;
+  overflow: hidden;
 }
 ul {
   width: 100%;

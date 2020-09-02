@@ -26,12 +26,12 @@ export default {
 
 <style>
 .layout {
-  max-width: 38.75rem;
+  max-width: var(--article-width);
   margin: 0 auto;
   padding: 0 0.75rem;
 }
 
-@media (min-width: 38.75rem) {
+@media (min-width: var(--article-width)) {
   .layout {
     padding: 0;
   }
