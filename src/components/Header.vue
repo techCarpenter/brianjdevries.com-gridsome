@@ -1,33 +1,33 @@
 <template>
   <header>
-    <div class="container">
-      <g-link class="logo" to="/" @click="closeMenu">
+    <div class="header-container">
+      <g-link class="logo" to="/">
         <g-image src="../../static/android-chrome-192x192.png" width="40" />
       </g-link>
-      <button @click="toggleMenu">
-        <span v-if="!menuVisible">&#9776;</span>
-        <span v-else>&#10006;</span> Menu
-      </button>
+      <div class="menu-toggle">
+        <input type="checkbox" id="menu-checkbox" v-model="menuVisible" />
+        <label for="menu-checkbox">Menu</label>
+      </div>
     </div>
     <nav :class="{openMenu: menuVisible}">
       <ul>
         <li>
-          <g-link class="nav-link" to="/" @click="closeMenu">
+          <g-link class="nav-link" to="/">
             <strong>Start Here</strong>
           </g-link>
         </li>
         <li>
-          <g-link class="nav-link" to="/about/" @click="closeMenu">
+          <g-link class="nav-link" to="/about/">
             <strong>My Story</strong>
           </g-link>
         </li>
         <li>
-          <g-link class="nav-link" to="/now/" @click="closeMenu">
+          <g-link class="nav-link" to="/now/">
             <strong>Now</strong>
           </g-link>
         </li>
         <li>
-          <g-link class="nav-link" to="/blog/" @click="closeMenu">
+          <g-link class="nav-link" to="/blog/">
             <strong>Blog</strong>
           </g-link>
         </li>
@@ -73,7 +73,7 @@ header {
   background-color: var(--black-coffee);
   padding: 0.65rem;
 }
-.container {
+.header-container {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -87,6 +87,7 @@ header {
 .openMenu {
   max-height: 18rem;
   margin-bottom: 0.65rem;
+  transition-duration: 0.5s;
 }
 nav {
   padding: 0;
@@ -98,7 +99,7 @@ nav {
   justify-content: space-between;
   height: auto;
   max-height: 0;
-  transition: max-height 0.5s ease-out;
+  transition: max-height 0.2s ease-out;
   overflow: hidden;
 }
 ul {
@@ -126,13 +127,30 @@ nav li {
 .active--exact:not(.logo) {
   color: var(--cinnabar);
 }
-button {
+.menu-toggle {
+  position: relative;
+}
+/* Hide checkbox under label for menu */
+.menu-toggle input {
+  position: relative;
+  left: 2rem;
+  opacity: 0;
+  z-index: -1;
+}
+.menu-toggle label {
   border-radius: 0.4rem;
   background-color: var(--cinnabar);
   color: #eee;
   padding: 0.65rem;
+  z-index: 1;
 }
-button:hover {
+.menu-toggle label::before {
+  content: "☰ ";
+}
+.menu-toggle input:checked + label::before {
+  content: "✖ ";
+}
+.menu-toggle label:hover {
   cursor: pointer;
 }
 </style>

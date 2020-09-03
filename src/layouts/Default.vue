@@ -31,7 +31,7 @@ export default {
   padding: 0 0.75rem;
 }
 
-@media (min-width: var(--article-width)) {
+@media (min-width: 40rem) {
   .layout {
     padding: 0;
   }

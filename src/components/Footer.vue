@@ -38,6 +38,7 @@ footer {
   align-items: center;
   padding: 0.65rem 0;
   max-height: var(--footer-height);
+  height: var(--footer-height);
 }
 .copyright {
   margin: 0;
