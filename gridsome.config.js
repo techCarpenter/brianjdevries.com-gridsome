@@ -7,7 +7,7 @@
 module.exports = {
   siteName: "brianjdevries.com",
   siteDescription: "Hi, I'm Brian DeVries. Welcome to my online home!",
-  siteUrl: "https://brianjdevries.com/",
+  siteUrl: "https://brianjdevries.com",
   titleTemplate: "%s",
   templates: {
     PageMarkdown: [
