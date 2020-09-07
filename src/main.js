@@ -3,6 +3,7 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/reset.css";
+import "~/assets/prism-vsc-dark-plus.css";
 import "~/assets/styles.css";
 
 export default function(Vue, { router, head, isClient }) {
@@ -16,6 +17,7 @@ export default function(Vue, { router, head, isClient }) {
     rel: "icon",
     href: "favicon.ico",
   });
+  /* Goatcounter non-tracking site analytics script */
   head.script.push({
     "data-goatcounter": "https://brianjdevries.goatcounter.com/count",
     src: "//gc.zgo.at/count.js",

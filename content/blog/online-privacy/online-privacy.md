@@ -1,6 +1,8 @@
 ---
 title: "You're Being Watched"
 date: 2020-08-24
+description: ""
+tags: ["privacy"]
 ---
 
 I've been more conscious about online privacy lately. Maybe it's because I'm building more websites and have to consider traffic analytics. Or it might be due to the ever-present advertisements that mysteriously match searches on other platforms.

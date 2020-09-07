@@ -9,6 +9,7 @@
   query Page ($id: ID!) {
     blogPost(id: $id) {
       title
+      excerpt
       content
       date (format: "MMMM DD, YYYY")
     }
@@ -27,6 +28,13 @@ export default {
   metaInfo() {
     return {
       title: this.$page.blogPost.title,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.blogPost.excerpt,
+        },
+      ],
     };
   },
 };
