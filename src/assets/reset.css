@@ -59,13 +59,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-code {
+/* code {
   font-family: "JetBrains Mono", Courier, monospace;
   font-size: 1.2rem;
   padding: 0 0.2rem;
   border-radius: 0.2rem;
   background-color: #ccc;
-}
+} */
 @media screen and (min-width: 38.75rem) {
   body {
     font-size: 1.3rem;

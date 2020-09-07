@@ -6,23 +6,23 @@
 
 module.exports = {
   siteName: "brianjdevries.com",
-  siteDescription: "Hi, I'm Brian DeVries. Welcome to my online home!",
+  siteDescription: "Hi, I'm Brian DeVries. Welcome to my online home.",
   siteUrl: "https://brianjdevries.com",
   titleTemplate: "%s",
   templates: {
     PageMarkdown: [
       {
         path: (node) => {
-          return `/${node.fileInfo.name}`
-        }
-      }
+          return `/${node.fileInfo.name}`;
+        },
+      },
     ],
     BlogPost: [
       {
         path: (node) => {
-          return `/blog/${node.fileInfo.name}`
-        }
-      }
+          return `/blog/${node.fileInfo.name}`;
+        },
+      },
     ],
   },
   plugins: [
@@ -42,10 +42,13 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "BlogPost",
-        baseDir: "./content/posts",
-        path: "*.md"
-      }
-    }
+        baseDir: "./content/blog",
+        path: "*/*.md",
+        remark: {
+          plugins: ["@gridsome/remark-prismjs"],
+        },
+      },
+    },
   ],
   transformers: {
     remark: {

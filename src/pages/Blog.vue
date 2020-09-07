@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Writing</h1>
+    <h1>Articles</h1>
     <section>
       <BlogListItem v-for="post in $page.allBlogPost.edges" :key="post.node.id" :post="post" />
     </section>
