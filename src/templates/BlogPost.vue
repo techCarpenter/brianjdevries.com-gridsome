@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <postContent :post="$page.blogPost" />
+    <ShareIcons :description="this.$page.blogPost.excerpt" />
     <Subscribe />
   </Layout>
 </template>
@@ -19,11 +20,13 @@
 <script>
 import postContent from "../components/BlogPost";
 import Subscribe from "../components/Subscribe";
+import ShareIcons from "../components/ShareIcons";
 
 export default {
   components: {
     postContent,
     Subscribe,
+    ShareIcons
   },
   metaInfo() {
     return {
