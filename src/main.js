@@ -11,11 +11,29 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
   head.link.push({
     rel: "author",
-    href: "humans.txt",
+    href: "/humans.txt",
+  });
+  // Site icons and web manifest links
+  head.link.push({
+    rel: "icon",
+    sizes: "16x16",
+    href: "/favicon-16x16.png",
+    type: "image/png",
   });
   head.link.push({
     rel: "icon",
-    href: "favicon.ico",
+    sizes: "32x32",
+    href: "/favicon-32x32.png",
+    type: "image/png",
+  });
+  head.link.push({
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "/apple-touch-icon.png",
+  });
+  head.link.push({
+    rel: "manifest",
+    href: "/site.webmanifest",
   });
   /* Goatcounter non-tracking site analytics script */
   head.script.push({
