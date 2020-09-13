@@ -5,7 +5,7 @@
         <g-image src="../../static/android-chrome-192x192.png" width="40" />
       </g-link>
       <div class="menu-toggle">
-        <input type="checkbox" id="menu-checkbox" v-model="menuVisible" />
+        <input id="menu-checkbox" type="checkbox" name="menu-checkbox" v-model="menuVisible" />
         <label for="menu-checkbox">Menu</label>
       </div>
     </div>
@@ -86,7 +86,7 @@ header {
 }
 .openMenu {
   max-height: 18rem;
-  margin-bottom: 0.65rem;
+  margin: 0.65rem 0;
   transition-duration: 0.5s;
 }
 nav {
