@@ -1,7 +1,9 @@
 ---
-title: "Website building blocks"
+title: Website building blocks
+author: Brian DeVries
+description: A basic introduction to html and website source markup.
 date: 2020-09-07
-tags: ["html"]
+tags: [html]
 ---
 
 You visit websites every day, but you might not know what the basic building blocks are. Websites are built with 3 fundamental pieces: HTML, CSS, and JavaScript.
