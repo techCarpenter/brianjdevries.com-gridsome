@@ -1,6 +1,6 @@
 <template>
   <div class="subscribe">
-    <p><strong>Want to stay up-to-date?</strong></p>
+    <p><strong>Get Future Updates In Your Inbox</strong></p>
     <a class="button" :href="$static.json.newsletter">Join Email List</a>
   </div>
 </template>

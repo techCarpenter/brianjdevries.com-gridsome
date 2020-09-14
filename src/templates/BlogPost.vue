@@ -1,14 +1,18 @@
 <template>
   <Layout>
     <postContent :post="$page.blogPost" />
-    <ShareIcons :description="this.$page.blogPost.excerpt" />
+    <!-- <BlogShareIcons :postURL="$page.metadata.siteUrl + $page.blogPost.path" /> -->
     <Subscribe />
   </Layout>
 </template>
 
 <page-query>
   query Page ($id: ID!) {
+    metadata {
+      siteUrl
+    }
     blogPost(id: $id) {
+      path
       title
       excerpt
       content
@@ -20,13 +24,13 @@
 <script>
 import postContent from "../components/BlogPost";
 import Subscribe from "../components/Subscribe";
-import ShareIcons from "../components/ShareIcons";
+import BlogShareIcons from "../components/BlogShareIcons";
 
 export default {
   components: {
     postContent,
     Subscribe,
-    ShareIcons
+    BlogShareIcons
   },
   metaInfo() {
     return {
