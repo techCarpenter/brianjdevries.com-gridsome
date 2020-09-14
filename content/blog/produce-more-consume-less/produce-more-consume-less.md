@@ -6,6 +6,8 @@ date: 2020-09-13
 tags: [thoughts]
 ---
 
+![Produce More, Consume Less](./images/produce-more.jpg)
+
 Long-term thinking yields greater results. But short-term results feel more urgent.
 
 I get caught up in coming up with my next endeavor to make a quick buck on the side. I need to stop chasing the quick money and start investing in an asset for the long-term.
