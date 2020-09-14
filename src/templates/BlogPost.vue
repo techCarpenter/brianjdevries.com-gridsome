@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <postContent :post="$page.blogPost" />
-    <BlogShareIcons :postURL="$page.metadata.siteUrl + $page.blogPost.path" />
+    <!-- <BlogShareIcons :postURL="$page.metadata.siteUrl + $page.blogPost.path" /> -->
     <Subscribe />
   </Layout>
 </template>
