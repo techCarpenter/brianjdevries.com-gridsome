@@ -5,11 +5,16 @@
         <g-image src="../../static/android-chrome-192x192.png" width="40" />
       </g-link>
       <div class="menu-toggle">
-        <input id="menu-checkbox" type="checkbox" name="menu-checkbox" v-model="menuVisible" />
+        <input
+          id="menu-checkbox"
+          type="checkbox"
+          name="menu-checkbox"
+          v-model="menuVisible"
+        />
         <label for="menu-checkbox">Menu</label>
       </div>
     </div>
-    <nav :class="{openMenu: menuVisible}">
+    <nav :class="{ openMenu: menuVisible }">
       <ul>
         <li>
           <g-link class="nav-link" to="/">
@@ -70,7 +75,7 @@ export default {
 
 <style scoped>
 header {
-  background-color: var(--black-coffee);
+  background-color: var(--black-coffee); /* Don't change with theme */
   padding: 0.65rem;
 }
 .header-container {
@@ -86,14 +91,12 @@ header {
 }
 .openMenu {
   max-height: 18rem;
-  margin: 0.65rem 0;
-  transition-duration: 0.5s;
+  margin: 0 0 0.65rem;
 }
 nav {
   padding: 0;
   display: flex;
   position: relative;
-  background-color: var(--black-coffee);
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -110,8 +113,8 @@ nav li {
   width: 100%;
 }
 .nav-link {
-  color: #eee;
-  font-size: 1.8rem;
+  color: var(--mercury); /* Don't change with theme */
+  font-size: 1.4rem;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -121,7 +124,7 @@ nav li {
 .nav-link:active,
 .nav-link:hover {
   text-decoration: none;
-  color: var(--grullo);
+  color: #aaa;
   transition: all 0.3s ease;
 }
 .active--exact:not(.logo) {
@@ -138,17 +141,20 @@ nav li {
   z-index: -1;
 }
 .menu-toggle label {
+  display: inline-block;
   border-radius: 0.4rem;
   background-color: var(--cinnabar);
-  color: #eee;
-  padding: 0.65rem;
+  color: var(--mercury); /* Don't change with theme */
+  padding: 0.4rem 0.65rem;
   z-index: 1;
 }
 .menu-toggle label::before {
   content: "☰ ";
+  color: var(--mercury); /* Don't change with theme */
 }
 .menu-toggle input:checked + label::before {
   content: "✖ ";
+  color: var(--mercury); /* Don't change with theme */
 }
 .menu-toggle label:hover {
   cursor: pointer;
