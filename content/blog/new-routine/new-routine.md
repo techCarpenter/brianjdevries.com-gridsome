@@ -16,17 +16,17 @@ Of course, Hannah and I need to be on the same page about what I want my schedul
 
 I came up with a starting schedule yesterday. It will change to adjust to the needs of my family with the newborn, but it's a good starting place.
 
-| Start Time |     |                    | Item                                                       |
-| :---------: | :-: | :----------------: | :--------------------------------------------------------- |
-|     4:45AM |  :  |         🌄         | Wake up                                                    |
-|     5:00AM |  :  |     💻 <br> ✍️     | Programming & <br> Writing                                 |
-|     6:30AM |  :  |     👨‍👦‍👦 <br> 👨‍👩‍👦‍👦     | Get Diedrick & Rhett up, then <br> Family time (breakfast) |
-|     7:30AM |  :  |         👨‍💻         | Day job                                                    |
-|     4:30PM |  :  |     🥘 <br> 👨‍👩‍👦‍👦     | Dinner & <br> Family time                                  |
-|     7:30PM |  :  | 🛌 <br> 🚶 <br> 🚿 | (Kids in bed), then <br> Ruck & <br> Shower                |
-|     8:30PM |  :  |         💑         | Wife time                                                  |
-|     9:30PM |  :  |         🛌         | Get ready for bed                                          |
-|     9:45PM |  :  |         😴         | Sleep                                                      |
+| Start Time |     |                    | Item                                        |
+| :--------: | :-: | :----------------: | :------------------------------------------ |
+|   4:45AM   |  :  |         🌄         | Wake up                                     |
+|   5:00AM   |  :  |     💻 <br> ✍️     | Programming & <br> Writing                  |
+|   6:30AM   |  :  |     👨‍👦‍👦 <br> 👨‍👩‍👦‍👦     | Get kids up, then <br> Family time          |
+|   7:30AM   |  :  |         👨‍💻         | Day job                                     |
+|   4:30PM   |  :  |     🥘 <br> 👨‍👩‍👦‍👦     | Dinner & <br> Family time                   |
+|   7:30PM   |  :  | 🛌 <br> 🚶 <br> 🚿 | (Kids in bed), then <br> Ruck & <br> Shower |
+|   8:30PM   |  :  |         💑         | Wife time                                   |
+|   9:30PM   |  :  |         🛌         | Get ready for bed                           |
+|   9:45PM   |  :  |         😴         | Sleep                                       |
 
 I've been getting about 7 hours of sleep at night for a couple weeks now and I'm still fresh. I'll have less some nights with the baby, but 7 is my goal.
 
@@ -45,18 +45,3 @@ I'm looking forward to working on this project. It'll be challenging and useful.
 The next time I write, I'll be a father of 2 boys! See you then.
 
 Brian DeVries
-
-<style>
-table {
-  border-collapse: collapse;
-}
-th {
-  text-align: center;
-  padding: 0.1rem 0.65rem;
-  border-bottom: 4px solid var(--black-coffee);
-}
-td {
-  padding: 0.1rem 0.65rem;
-  border-top: 1px solid var(--black-coffee);
-}
-</style>
