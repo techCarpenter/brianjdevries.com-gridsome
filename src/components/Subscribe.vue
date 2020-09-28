@@ -25,13 +25,13 @@ query {
 }
 .button {
   padding: 0.65rem 1.25rem;
-  color: #eee;
+  color: var(--mercury); /* Don't change with theme */
   background-color: var(--cinnabar);
   border-radius: 0.4rem;
 }
 .button:hover,
 .button:focus {
   text-decoration: none;
-  filter: brightness(1.2);
+  filter: brightness(0.9);
 }
 </style>

@@ -25,15 +25,15 @@ export default {
 h3, p {
     margin: 0;
 }
+p {
+    padding-left: 1rem;
+}
 .post-item {
-    padding: 0.65rem;
+    padding: 0.65rem 0;
     border-radius: 0.65rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.post-item:hover {
-    background-color: #ddd;
 }
 </style>

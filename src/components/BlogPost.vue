@@ -1,7 +1,7 @@
 <template>
   <div class="blog-post">
     <h1>{{post.title}}</h1>
-    <h5>{{post.date}}</h5>
+    <p><strong>{{post.date}}</strong></p>
     <div v-html="post.content"></div>
   </div>
 </template>

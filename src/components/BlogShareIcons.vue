@@ -37,12 +37,12 @@ export default {
 
 <style scoped>
 .share-post-buttons {
-  background-color: var(--black-coffee);
+  background-color: var(--background-color);
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  color: #eee;
+  color: var(--text-color);
   box-shadow: 0 -6px 6px 4px rgba(0, 0, 0, 0.4);
 }
 .share-post-buttons p {

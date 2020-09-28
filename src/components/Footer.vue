@@ -30,8 +30,8 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--black-coffee);
-  color: #eee;
+  background-color: var(--background-color);
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
