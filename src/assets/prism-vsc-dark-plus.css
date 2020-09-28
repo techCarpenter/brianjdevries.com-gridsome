@@ -6,9 +6,9 @@ code[class*="language-"] {
   font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
   direction: ltr;
   text-align: left;
-  white-space: pre;
+  white-space: pre-wrap;
   word-spacing: normal;
-  word-break: normal;
+  word-break: break-word;
   line-height: 1.5;
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -47,6 +47,7 @@ pre[class*="language-"] {
   padding: 0.1em 0.3em;
   border-radius: 0.3em;
   background-color: #ccc;
+  color: #333;
 }
 /* 
 :not(pre) > code[class*="language-"] {
@@ -71,7 +72,7 @@ pre[class*="language-"] {
 
 .token.comment,
 .token.prolog {
-  color: #6a9955;
+  color: #0BDC09;
 }
 
 .token.punctuation,
