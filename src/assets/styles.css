@@ -47,3 +47,11 @@ td {
   padding: 0.1rem 0.65rem;
   border-top: 1px solid var(--text-color);
 }
+blockquote {
+  border-left: 4px solid var(--cinnabar);
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote > p {
+  margin-left: 1.5rem;
+}
