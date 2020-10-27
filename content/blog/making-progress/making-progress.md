@@ -14,17 +14,17 @@ Clearly I was [being ambitious](/blog/new-routine) before. Interrupted sleep mak
 
 Here's my current routine:
 
-| Start Time |     |            | Item                                              |
-| :--------: | :-: | :--------: | :------------------------------------------------ |
-|   6:00AM   |  :  |     🌄     | Wake up, get ready for day                        |
-|   6:15AM   |  :  |     📖     | Devotions                                         |
-|   6:45AM   |  :  | 👨‍👦‍👦 <br> 👨‍👩‍👦‍👦 | Get kids up, then <br> Family time                |
-|   7:30AM   |  :  |     👨‍💻     | Day job                                           |
-|   4:30PM   |  :  | 🥘 <br> 👨‍👩‍👦‍👦 | Dinner, <br> Family time                          |
-|   7:30PM   |  :  | 🛌 <br> 👶 | Diedrick in bed, then <br> Hold Rhett til feeding |
-|   8:00PM   |  :  | 💑 <br> 💻 | Watch TV show with wife, <br> Work on app         |
-|  10:15PM   |  :  |     🛌     | Get ready for bed                                 |
-|  10:30PM   |  :  |     😴     | Sleep                                             |
+| Start Time |       |          | Item                                              |
+| :--------: | :---: | :------: | :------------------------------------------------ |
+|   6:00AM   |   :   |    🌄     | Wake up, get ready for day                        |
+|   6:15AM   |   :   |    📖     | Devotions                                         |
+|   6:45AM   |   :   | 👨‍👦‍👦 <br> 👨‍👩‍👦‍👦 | Get kids up, then <br> Family time                |
+|   7:30AM   |   :   |    👨‍💻     | Day job                                           |
+|   4:30PM   |   :   | 🥘 <br> 👨‍👩‍👦‍👦 | Dinner, <br> Family time                          |
+|   7:30PM   |   :   | 🛌 <br> 👶 | Diedrick in bed, then <br> Hold Rhett til feeding |
+|   8:00PM   |   :   | 💑 <br> 💻 | Watch TV show with wife, <br> Work on app         |
+|  10:15PM   |   :   |    🛌     | Get ready for bed                                 |
+|  10:30PM   |   :   |    😴     | Sleep                                             |
 
 There are aspects of this routine I don't love.
 
@@ -73,9 +73,9 @@ When it's released, it will be a small application. But it will hopefully be [_s
 
 I'm nervous about charging money for it. I don't know if anyone will be willing to pay for it.
 
-But **I DO NOT** want a bunch of free accounts to support with \$0 coming in.
+But **I DO NOT** want a bunch of free accounts to support with $0 coming in.
 
-Ideally I'll charge \$10/month to use this service.
+Ideally I'll charge $10/month to use this service.
 
 It's going to provide a personalized plan for paying back debt quickly. Other features are in the pipeline.
 
@@ -83,7 +83,7 @@ I want my customers to succeed in paying off their debts. Primary focus will be 
 
 Paying debt off with the snowball or avalanche method can save thousands of dollars and years of time. That must be worth the price to some people, right?
 
-Many people pay about \$10/month for Amazon Prime, Netflix, and other services that don't help you get ahead financially.
+Many people pay about $10/month for Amazon Prime, Netflix, and other services that don't help you get ahead financially.
 
 It might be a matter of presenting the value in the right way. I'll figure that out, but first I need to build the app 😉
 
